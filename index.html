@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <script src="todo.js" defer></script>
+    <title>Todo</title>
+</head>
+<body>
+    <div id="main">
+        <div id="inputContainer">
+            <input type="text" name="title" id="title">
+            <input type="text" name="description" id="description">
+            <input type="date" name="date" id="date">
+            <select name="priority" id="priority">
+                <option value="">Prioriteet</option>
+                <option value="high">Kõrge</option>
+                <option value="medium">Keskmine</option>
+                <option value="low">madal</option>
+            </select>
+        </div>
+        <div id="buttonContainer">
+            <button id="addButton">LISA</button>
+        </div>
+        <div id="taskList"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+body{
+    margin:0;
+}
+
+#main{
+    padding-top:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    min-height:100px;
+    flex-direction:column;
+}
